@@ -18,7 +18,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-/*body'ye yükseklik vermden buraya yükseklik veremeyiz. block elementlerin yüksekliği içerik kadardır.*/
+/*body'ye yükseklik vermeden buraya yükseklik veremeyiz. block elementlerin yüksekliği içerik kadardır.*/
 .container {
   width: 75%;
   height: 85%;
@@ -99,7 +99,7 @@ body {
   width: 35px;
   border-radius: 50%;
 
-  display: flex; /*yazıldığı elemnti block seviyesi yapar*/
+  display: flex; /*yazıldığı elementi block seviyesi yapar*/
   justify-content: center;
   align-items: center;
 }
@@ -111,17 +111,11 @@ body {
 }
 
 .form {
-    flex-basis: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    
- 
-    
-    
-   
-
+  flex-basis: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .form-group {
@@ -133,7 +127,7 @@ body {
 .svg-form {
   height: 25px;
   width: 25px;
-  fill: #8497a2;
+  fill: #8497a2; /*renk veriyoruz*/
   position: absolute;
   left: 5%;
   top: 50%;
@@ -161,10 +155,10 @@ body {
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 2px;
-   border: 1px solid white;
-   color: white;
+  border: 1px solid white;
+  color: white;
 }
 
-.submit:hover{
-   opacity:0.9
+.submit:hover {
+  opacity: 0.9;
 }
